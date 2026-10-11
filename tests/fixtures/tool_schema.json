@@ -1,0 +1,30 @@
+{
+  "cache_status": [],
+  "gov_enclosures": [
+    "from_year",
+    "gov_id",
+    "to_year"
+  ],
+  "gov_object": [
+    "children",
+    "gov_id",
+    "refresh"
+  ],
+  "gov_place_at_date": [
+    "gov_id",
+    "language",
+    "year"
+  ],
+  "gov_registers": [
+    "confession",
+    "gov_id",
+    "year"
+  ],
+  "gov_search": [
+    "limit",
+    "name",
+    "place_type",
+    "refresh",
+    "within"
+  ]
+}

@@ -1,0 +1,20 @@
+name: Feature request
+description: A research question the tools cannot answer yet.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tools that write to GOV, call it faster than once a second, or work around a bot check will not be merged. See "Out of scope, by decision" in [docs/DESIGN.md](https://github.com/ianderso/gov-gazetteer-mcp/blob/main/docs/DESIGN.md).
+  - type: textarea
+    id: problem
+    attributes:
+      label: The research problem
+      description: What you were trying to find out about a place, and where the current tools stopped you.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help
+      description: A new tool, a new parameter, or a change to what a tool returns.

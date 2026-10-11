@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ianderso/gov-gazetteer-mcp",
+  "title": "GOV Historical Gazetteer",
+  "description": "German historical gazetteer GOV: a place's name, Kreis, parish and Standesamt in any year.",
+  "repository": {
+    "url": "https://github.com/ianderso/gov-gazetteer-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "gov-gazetteer-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "GOV_GAZETTEER_CACHE_DIR",
+          "description": "Directory for the on-disk response cache.",
+          "default": "~/.cache/gov-gazetteer-mcp"
+        },
+        {
+          "name": "GOV_GAZETTEER_TIMEOUT",
+          "description": "HTTP timeout in seconds for one request.",
+          "default": "30"
+        },
+        {
+          "name": "GOV_GAZETTEER_MIN_INTERVAL",
+          "description": "Least seconds between two requests to GOV. Never below 1.",
+          "default": "1"
+        },
+        {
+          "name": "GOV_GAZETTEER_CONTACT",
+          "description": "An email address or URL appended to the User-Agent, so CompGen can reach whoever runs the server."
+        }
+      ]
+    }
+  ]
+}

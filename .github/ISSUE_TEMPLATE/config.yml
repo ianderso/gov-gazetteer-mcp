@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/ianderso/gov-gazetteer-mcp/security/advisories/new
+    about: Privately, not in a public issue. See SECURITY.md.
+  - name: A wrong or missing entry in GOV itself
+    url: https://wiki.genealogy.net/GOV/Projekt
+    about: This project does not edit GOV. Corrections to places, parishes and dates go to GOV's volunteers.

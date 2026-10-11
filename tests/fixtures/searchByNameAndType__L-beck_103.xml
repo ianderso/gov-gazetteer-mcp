@@ -1,0 +1,1 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns1:searchByNameAndTypeResponse xmlns:ns1="http://gov.genealogy.net/ws"><out xmlns:ns2="http://gov.genealogy.net/data" xmlns:ns3="http://gov.genealogy.net/ws"/></ns1:searchByNameAndTypeResponse></soap:Body></soap:Envelope>

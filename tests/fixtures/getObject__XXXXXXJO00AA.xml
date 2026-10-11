@@ -1,0 +1,2 @@
+404
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode>soap:Server</faultcode><faultstring>There is no item with id 'XXXXXXJO00AA'.</faultstring><detail><ns1:NoSuchObject xmlns:ns1="http://gov.genealogy.net/ws"/></detail></soap:Fault></soap:Body></soap:Envelope>
