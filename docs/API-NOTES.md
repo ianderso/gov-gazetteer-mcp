@@ -118,7 +118,7 @@ answers `[name, group]` but with different group words ("Stadt",
 
 - **Not exact-match.** Words match at their beginnings (`Quedlin` finds the
   24 Quedlinburg objects), case and accents are ignored (`Lübeck` finds
-  "Lubeck, West Virginia"), every word given must match (`Quedlinburg Dom`
+  a Lubeck in the United States), every word given must match (`Quedlinburg Dom`
   finds 2). No infix (`edlinburg` finds nothing) and no fuzziness
   (`Quedlinbrug` finds nothing).
 - **Capped at 500 objects** (`Nikolaus` returned exactly 500, 285 KB).
