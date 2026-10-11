@@ -52,8 +52,8 @@ def recorded(name: str) -> httpx.Response:
     data = (FIXTURES / name).read_bytes()
     status = 200
     head, _, rest = data.partition(b"\n")
-    if head.isdigit():
-        status, data = int(head), rest
+    if head.strip().isdigit():
+        status, data = int(head.strip()), rest
     return httpx.Response(status, content=data, headers={"content-type": "text/xml;charset=UTF-8"})
 
 

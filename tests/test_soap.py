@@ -23,7 +23,7 @@ WS = "{http://gov.genealogy.net/ws}"
 def body(name: str) -> bytes:
     data = (FIXTURES / name).read_bytes()
     head, _, rest = data.partition(b"\n")
-    return rest if head.isdigit() else data
+    return rest if head.strip().isdigit() else data
 
 
 def test_an_envelope_carries_unqualified_parts_and_escapes_text():
